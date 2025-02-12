@@ -1,0 +1,9 @@
+.controlWrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.controlWrapper > :nth-child(2n) {
+  margin: 10px 0;
+}
