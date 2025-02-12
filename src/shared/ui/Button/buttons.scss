@@ -1,0 +1,17 @@
+.controlBtnWrapper {
+  width: 140px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.active {
+  background-color: $primaryBlue;
+  color: $primaryText;
+  transition: all 0.3s ease-in-out;
+}
+
+.passive {
+  background-color: $secondaryBlue;
+  color: $secondaryText;
+  transition: all 0.3s ease-in-out;
+}
