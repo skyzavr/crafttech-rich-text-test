@@ -22,7 +22,7 @@ export const Canvas = ({ tool, stageRef }: canvasProps) => {
     return {
       id: Date.now().toString(36),
       width: 100,
-      height: 100,
+      height: 150,
       type: 'rect',
       fill: 'red',
       stroke: 'blue',
